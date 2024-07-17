@@ -1,0 +1,197 @@
+/* styles.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #111010;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+header {
+    background-color: #1976D2; /* Updated header background color */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+header .logo img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    max-width: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+header .social-links a {
+    margin: 0 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+header .social-links a:hover {
+    color: #90CAF9; /* Example of a contrasting color for hover state */
+}
+
+nav {
+    background-color: #212121; /* Updated navigation background color */
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #1976D2; /* Updated hover color */
+}
+
+section {
+    padding: 2rem 0;
+    background: #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1976D2; /* Updated section heading color */
+    border-bottom: 2px solid #1976D2; /* Updated section heading border color */
+    display: inline-block;
+}
+
+#about img {
+    border-radius: 80%;
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 150px;
+    border: 5px solid #1976D2; /* Updated border color for about section image */
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #E3F2FD;
+    border: #1976D2 1px solid; /* Updated border color for skills */
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#skills li:hover {
+    background: #BBDEFB;
+}
+
+#proficiency .proficiency-bar {
+    margin: 1rem 0;
+}
+
+#proficiency .progress {
+    background: #E0E0E0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 25px;
+}
+
+#proficiency .progress-value {
+    background: #1976D2; /* Updated proficiency bar color */
+    height: 100%;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px; /* Center text vertically */
+    color: white;
+    font-weight: bold;
+}
+
+#projects .project {
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+    transition: box-shadow 0.3s;
+}
+
+#projects .project:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    background: #1976D2; /* Updated resume button background color */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#resume a:hover {
+    background: #1565C0; /* Darker shade for hover effect */
+}
+
+#contact p {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
